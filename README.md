@@ -23,17 +23,11 @@
 
 <p align="justify"> 
  
-* Spatial nonstationarity, ubiquitous in spatial settings, are generally not acocunted-for or even mitigated in deep learning (DL) applictaions for spatial phenomenon.
+* Determining subsurface resource analogs from mature subsurface resource datasets is essential for identifying and developing new prospects because critical information is often limited or absent initially. Conventionally, subsurface resource analogs are selected by geoscience and subsurface engineering domain experts. Furthermore, most subsurface datasets have high complexity, noise, and dimensionality, making interpretation and visualization difficult. Hence, adopting an objective machine learning workflow to support analog selection is beneficial. 
 
-* We design a workflow to explore the impacts of nonstationarity on DL prediction performance:
-  1. DL is trained with stationary SGS realizations of propoerty of interest (we use porosity for example) with variogram range labeled.
-  2. Test the DL prediction performance using nonstationary realiztaions (investigate the impacts of nonstationarity).
+* We present a novel systematic and unbiased measure that accounts for spatial and multivariate data contributions using a novel dissimilarity metric and scoring metrics (group consistency score and pairwise similarity score), which measures within and between group similarities in lower dimensional spaces. The workflow consists of three steps, starting with inferential machine learning multidimensional scaling to obtain data representations in a lower dimensional space using the proposed novel dissimilarity metric. Next, inferential machine learning's density-based spatial clustering of applications with noise is applied in the lower dimensional space to identify analog clusters and spatial analogs. Afterward, the proposed scoring measures are used to quantify, summarize, and identify analogous data samples to assist with inferential diagnostics and resource exploration.
 
-* The benchmark results are obatined by training convolutional neural network (CNN) model, which is commonly used for computer vision (CV) tasks due to its performance in leanring spatial hierarchies of features. 
-
-* Then we explore Vision Transformer (ViT) and Swin Transformer (SwinT) models for spatial nonstationarity mitigation. The original ViT and SwinT architectures are modifed for the predictive tasks (regression tasks).
-
-* We found out self-attention networks can effectively help mitigate the spatial nonstatioanrity.
+* We successfully identified and grouped analog clusters of well samples based on geological properties and cumulative gas production, showcasing the potential of our proposed workflow for practical use in the field.
 </p>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
