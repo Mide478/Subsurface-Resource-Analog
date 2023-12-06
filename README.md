@@ -45,17 +45,13 @@
 [![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://jupyter.org/try) <br>
 
 <!--This project is written in Python programming language. <br>-->
-The following open source packages are mainly used in this project:
+The following open-source packages are mainly used in this project:
 * Numpy
 * Pandas
 * Matplotlib
 * Scikit-Learn
-* GSLIB
-* TensorFlow
-* Keras
-* PyTorch
 
-Please also install other required packages when there is any missing (see detailed package uses in Jupyter notebooks)
+Please install other required packages detailed in the `requirements.txt` file and include custom-made `utils.py` containing functions in active working directory
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
@@ -65,11 +61,9 @@ Please also install other required packages when there is any missing (see detai
 
     code
     .
-    ├── Data Preparation.ipynb
-    ├── train_CNN.ipynb
-    ├── train_vision_transformers.ipynb  
-    ├── SwinT.py    
-    ├── ViT.py
+    ├── Spatial_Weights_Determination.ipynb
+    ├── Predictors_and_Response_Kriging_both_Spaces.ipynb
+    ├── Comparative_Results_Analysis.ipynb  
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
