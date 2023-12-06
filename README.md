@@ -70,9 +70,7 @@ Please install other required packages detailed in the `requirements.txt` file a
 <!-- DATASET -->
 <h2 id="dataset"> :floppy_disk: Dataset</h2>
 <p> 
-  The dataset used for this demonstration is publicly available in `12_sample_data.csv` from GeoDataSets: Synthetic Subsurface Data Repository 
-  </a>href="https://github.com/GeostatsGuy">@GeostatsGuy</a> <br>
-  10.5281/zenodo.5564874.
+  The dataset used for this demonstration is publicly available in <a href="[https://github.com/GeostatsGuy](https://github.com/GeostatsGuy/GeoDataSets/blob/master/)"> GeoDataSets: Synthetic Subsurface Data Repository as `12_sample_data.csv` </a> 
   
 </p>
 
@@ -124,7 +122,7 @@ This work is supported by Equinor and Digital Reservoir Characterization Technol
 <p>  
   👩‍🎓: <b>Ademide O. Mabadeje</b> <br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Email: <a>ademidemabadeje@utexas.edu</a> <br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GitHub: <a href="https://github.com/divyabhagavathiappan">@Mide478</a> <br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GitHub: <a href="https://github.com/Mide478">@Mide478</a> <br>
   
   👨‍💻: <b>Jose J. Salazar</b> <br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Email: <a>juliansalazarn@gmail.com</a> <br>
