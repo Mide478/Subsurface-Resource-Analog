@@ -70,11 +70,10 @@ Please install other required packages detailed in the `requirements.txt` file a
 <!-- DATASET -->
 <h2 id="dataset"> :floppy_disk: Dataset</h2>
 <p> 
-  The Data Preparation.ipynb walks through the training data and testing data calculation.
+  The dataset used for this demonstration is publicly available in `12_sample_data.csv` from GeoDataSets: Synthetic Subsurface Data Repository 
+  </a>href="https://github.com/GeostatsGuy">@GeostatsGuy</a> <br>
+  10.5281/zenodo.5564874.
   
-  * all data is calculated using sequential Gaussian simulation.
-  
-  * this notebook shows how to calculate SGS realization using GSLIB related packages.
 </p>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
