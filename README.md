@@ -6,7 +6,7 @@
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#about-the-project"> ➤ Project Summary</a></li>
+    <li><a href="#project-summary"> ➤ Project Summary</a></li>
     <li><a href="#prerequisites"> ➤ Prerequisites</a></li>
     <li><a href="#folder-structure"> ➤ Folder Structure</a></li>
     <li><a href="#dataset"> ➤ Dataset</a></li>
@@ -17,8 +17,8 @@
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-<!-- ABOUT THE PROJECT -->
-<h2 id="about-the-project"> :pencil: Project Summary</h2>
+<!-- PROJECT SUMMARY -->
+<h2 id="project-sumary"> :pencil: Project Summary</h2>
 
 <p align="justify"> 
  
